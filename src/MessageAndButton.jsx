@@ -6,7 +6,7 @@ const MessageAndButton = ({ resetToHome }) => {
     <>
       <motion.div
         className="absolute text-white text-4xl font-bold"
-        style={{ top: "50%", left: "50%", transform: "translate(-50%, -50%)" }}
+        style={{ top: "50%", left: "50%", transform: "translate(-50%, -50%)", color: "black" }}
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
